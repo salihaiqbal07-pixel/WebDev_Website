@@ -42,11 +42,3 @@ hr {
     border: 1px solid darkblue;
     margin: 20px 0;
 }
-
-.FordMustang{
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
