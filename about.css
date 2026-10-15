@@ -16,8 +16,9 @@ h1 {
 }
 
 nav ul {
+    color: black;
     list-style-type: none;
-    background-color: grey;
+    background-color: light grey;
     padding: 10px;
     text-align: center;
 }
