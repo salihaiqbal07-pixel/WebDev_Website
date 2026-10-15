@@ -42,7 +42,7 @@ hr {
 
 .FordMustang{
     width: 25rem;
-    length: 25rem;
+    height: 25rem;
     object-fit: contain;
     display: block;
     position: relative;
