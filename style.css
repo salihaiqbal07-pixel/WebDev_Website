@@ -3,23 +3,25 @@ body {
     color:darkblue;
     font-family: Arial, sans-serif;
     margin: 20px;
+    font-size: 1rem;
 }
 
 h1 {
     color: darkblue;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
 }
 
 nav ul {
     list-style-type: none;
-    background-color: blue;
+    background-color: grey;
     padding: 10px;
     text-align: center;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
     line-height: 1.6;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -52,5 +54,29 @@ hr {
     margin: 20px auto;
     max-width: 600px;
     background-color: lightgrey;
+    text-align: center;
+}
+
+.high-contrast {
+    background-color: black;
+    color: white;
+}
+
+.high-contrast h1 {
+    color: white;
+}
+
+.high-contrast .CarBox {
+    background-color: black;
+    color: white;
+    border-color: yellow;
+}
+
+.high-contrast a {
+    color: yellow;
+}
+
+summary{
+    cursor: pointer;
     text-align: center;
 }

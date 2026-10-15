@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<!-- language for screen readers -->
+<html lang="en">
+
     <head>
         <title>Wheels on Fire</title>
+
         <link rel="stylesheet" href="style.css">
         
     </head>
@@ -20,13 +23,32 @@
             the perfect car to suit your style and needs.
         </p>
 
+        <!--High contrast button-->
+        <button onclick="document.body.classList.toggle('high-contrast')">
+            Change Colour Contrast
+        </button>
+
         <div class = "CarBox">
+
         <p>Car Of The Week</p>
         <p>Ford Mustang</p>
-        <img src="images/mustang.jpg" class= "FordMustang" alt="FordMustang" width="400">
-        </div>
 
-        </body>
+        <!-- Clickable image description-->
+        <details>
+            <summary>
+                <img src="images/mustang.jpg" 
+                class= "FordMustang" 
+                alt="FordMustang" 
+                width="400">
+            Click the image to read more
+            </summary>
+            <p>
+                This is a Ford Mustang, a sporty car featured 
+                at Wheels on Fire.
+            </p>
+        </details>
+
+        </div>
         
         <footer>
             <p> Wheels on Fire</p>
