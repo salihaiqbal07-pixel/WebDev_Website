@@ -40,15 +40,6 @@ hr {
     margin: 20px 0;
 }
 
-.FordMustang{
-    width: 25rem;
-    height: 25rem;
-    object-fit: contain;
-    display: block;
-    position: relative;
-    margin: 5px auto 20px
-    
-}
 
 .CarBox{
     width: 80%;
