@@ -49,31 +49,14 @@ hr {
 }
 
 .CarBox{
-    border: 2px solid rgb(14, 121, 139);
+    width: 80%;
+    height: 400px;
+    border: 2px solid teal;
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
     background-color: lightgrey;
     text-align: center;
-}
-
-.high-contrast {
-    background-color: black;
-    color: white;
-}
-
-.high-contrast h1 {
-    color: white;
-}
-
-.high-contrast .CarBox {
-    background-color: black;
-    color: white;
-    border-color: yellow;
-}
-
-.high-contrast a {
-    color: yellow;
 }
 
 summary{
