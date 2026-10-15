@@ -42,13 +42,12 @@ hr {
 
 .FordMustang{
     width: 100%;
-    max-width: 500px;
+    height: auto;
+    object-fit: contain;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    height: 100px;
+    position: relative;
+    margin: 5px auto 20px
+    
 }
 
 .CarBox{
@@ -58,6 +57,7 @@ hr {
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
+    box-sizing: border-box;
     background-color: lightgrey;
     text-align: center;
 
