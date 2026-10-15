@@ -4,8 +4,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     font-size: 1rem;
-}
-
+    background-image: url("https://app.leonardo.ai/generation/image/car-wallpaper-4k-resolution-featuring-modern-bcf06b18-3560-440d-ac1a-8eb61fc883d4");
+    
 h1 {
     color: darkblue;
     text-align: center;
@@ -59,7 +59,5 @@ hr {
     text-align: center;
 }
 
-summary{
-    cursor: pointer;
-    text-align: center;
-}
+
+    
