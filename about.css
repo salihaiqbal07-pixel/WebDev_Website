@@ -5,12 +5,12 @@ body {
     margin: 20px;
     font-size: 1rem;
     background-image: url("images/background.jpg");
-    background-position: center;
+    background-position: left;
 }
     
 h1 {
     color: darkblue;
-    text-align: center;
+    text-align: left;
     font-family: "Times New Roman", Times, serif;
     font-size: 2rem;
 }
@@ -20,20 +20,21 @@ nav ul {
     list-style-type: none;
     background-color: light grey;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 p {
     font-size: 18px;
     text-align: left;
     line-height: 1.6;
+    color: black;
     font-family: Arial;
     margin: 20px 0;
     background-color: white;
 }
 
 footer{
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     background-color: grey;
     padding: 10px;
@@ -46,4 +47,8 @@ hr {
 
 .nav li a {
     color: white;
+}
+
+ul {
+    color: black;
 }
