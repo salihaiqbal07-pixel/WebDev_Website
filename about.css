@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #EAF4FF;
     color:darkblue;
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -24,10 +24,10 @@ nav ul {
 }
 
 p {
-    font-size: 1rem;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
     line-height: 1.6;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Arial;
     margin: 20px 0;
     background-color: white;
 }
@@ -43,3 +43,4 @@ hr {
     border: 1px solid darkblue;
     margin: 20px 0;
 }
+

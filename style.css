@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
     color:darkblue;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 20px;
     font-size: 1rem;
 }
@@ -9,7 +9,7 @@ body {
 h1 {
     color: darkblue;
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial;
     font-size: 3rem;
 }
 
@@ -22,10 +22,10 @@ nav ul {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
     line-height: 1.6;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Arial;
     margin: 20px 0;
 }
 
