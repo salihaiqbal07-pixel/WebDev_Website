@@ -1,22 +1,22 @@
 body {
-    background-color: lightblue;
-    color:darkblue;
+    background-color: #EAF4FF;
+    color:#102A43;
     font-family: Arial;
     margin: 20px;
     font-size: 1rem;
 }
 
 h1 {
-    color: darkblue;
+    color: #102A43;
     text-align: center;
     font-family: Arial;
-    font-size: 3rem;
+    font-size: 18px;
 }
 
 nav ul {
-    color: black;
+    color: white;
     list-style-type: none;
-    background-color: grey;
+    background-color: #d1dfec;
     padding: 10px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ p {
 footer{
     text-align: center;
     margin-top: 20px;
-    background-color: grey;
+    background-color: #102A43;
     padding: 10px;
 }
 
@@ -50,10 +50,13 @@ hr {
     margin: 20px auto;
     max-width: 600px;
     box-sizing: border-box;
-    background-color: lightgrey;
+    background-color: white;
     text-align: center;
 
 }
 
+li {
+    color: white;
+}
 
     
