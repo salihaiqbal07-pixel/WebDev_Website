@@ -13,12 +13,15 @@ h1 {
     font-size: 18px;
 }
 
+
 nav ul {
-    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
     list-style-type: none;
     background-color: #d1dfec;
-    padding: 10px;
-    text-align: left;
+    padding: 15px;
 }
 
 p {
@@ -29,10 +32,15 @@ p {
     margin: 20px 0;
 }
 
-footer{
-    text-align: left;
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 20px;
     background-color: #102A43;
+    color: white;
     padding: 10px;
 }
 
@@ -41,17 +49,28 @@ hr {
     margin: 20px 0;
 }
 
-
-.CarBox{
+.CarBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
-    height: 400px;
+    height: 450px;
     border: 2px solid teal;
     padding: 20px;
     max-width: 600px;
     box-sizing: border-box;
     background-color: white;
-    text-align: left;
+    text-align: center;
+    transition: transform 0.4s;
+    transition: all 0.4s;
+}
 
+
+.CarBox:hover {
+    transform: scale(1.05);
+    background-color: #BDE0FE;
+    border-color: #FF4500;
 }
 
 .nav li a {
@@ -60,4 +79,55 @@ hr {
     font-size: larger;
 }
 
+nav a {
+    color: #102A43;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FF4500;
+    text-decoration: underline;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 599px) {
+    body {
+        margin: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .CarBox {
+        width: 100%;
+        height: auto;
+    }
+
+    .FordMustang {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .CarBox {
+        width: 90%;
+    }
+
+    .FordMustang {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Desktop screens */
+@media only screen and (min-width: 1025px) {
+    .CarBox {
+        width: 600px;
+    }
+}
     

@@ -52,3 +52,49 @@ hr {
 ul {
     color: black;
 }
+
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FF4500;
+    text-decoration: underline;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 599px) {
+    body {
+        margin: 10px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        margin: 15px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+/* Desktop screens */
+@media only screen and (min-width: 1025px) {
+    body {
+        margin: 30px;
+    }
+}
