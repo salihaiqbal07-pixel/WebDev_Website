@@ -54,8 +54,10 @@ hr {
 
 }
 
-li {
-    color: white;
+.nav li a {
+    display:block;
+    color:white;
+    font-size: larger;
 }
 
     
